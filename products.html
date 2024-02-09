@@ -1,38 +1,118 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .column {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #0f0e0e;
+            padding: 10px;
+        }
+        .card img {
+            width: 200;
+            height: 200;
+        }
+        .card p {
+            margin: 5px 0;
+        }
+        .card button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .card button:hover {
+            background-color: #070807;
+        }
+    </style>
+    <link rel="stylesheet" href="products.css">
 </head>
 <body>
 
-    <div class="row">
-        <div class="coloum">
-    <img src="c.jpg" width="200" height="200">
-    <p>Guidough's Bakery</p>
-    <p>Rs 100/-</p>
-        </div></div>
-        <div class="coloum">
-    <img src="c2.jpg" width="200" height="200">
-    <p>Cappiccino</p>
-    <p>Rs 200/-</p>
-        </div>
-    <img src="c3.jpg" width="200" height="200">
-    <p>Black Coffee</p>
-    <p>Rs 150/-</p>
-    <img src="c4.jpg" width="200" height="200">
-    <p>South Indian Filter</p>
-    <img src="c5.jpg" width="200" height="200">
-    <p>Coconut Oil Coffee</p>
-    <p>Rs 50/-</p>
-    <img src="c6.jpg" width="200" height="200">
-    <p>Mocha Coffe</p>
-    <p>Rs 100/-</p>
-    <img src="c7.jpg" width="200" height="200">
-    <p>Kevi Costner's Cafe Mocha</p>
-    <p>Rs 150/-</p>
-    <img src="c8.jpg" width="200" height="200">
-    <p>Vardera Coffe cup</p>
-    <p>Rs 100/-</p>
+<div class="main">
+        <div class="navbar">
+
+            <h2 class="logo">Coffee</h2>
+
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="products.html"  class="active-a">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div> 
+    <center><h1 style="color:black;">Products</h1></center>
+</div>
+<div class="column">
+    <div class="card">
+        <img src="c.jpg" width="200" height="200">
+        <p>Guidough's Bakery</p>
+        <p>Rs 100</p>
+        <button>Add to Cart</button>
+        <button>Buy Now</button>
+    </div>
+    <div class="card">
+        <img src="c2.jpg" width="200" height="200">
+        <p>Cappuccino</p>
+        <p>Rs 200</p>
+        <button>Add to Cart</button>
+        <button>Buy Now</button>
+    </div>
+    <div class="card">
+        <img src="c3.jpg" width="200" height="200">
+        <p>Black Coffee</p>
+        <p>Rs 150</p>
+        <p><button>Add to Cart</button></p>
+        <p><button>Buy Now</button></p>
+    </div>
+    <div class="card">
+        <img src="c4.jpg" width="200" height="200">
+        <p>South Indian Filter</p>
+        <p>Rs 120</p>
+        <p><button>Add to Cart</button></p>
+        <p><button>Buy Now</button></p>
+    </div>
+    <div class="card">
+        <img src="c5.jpg" width="200" height="200">
+        <p>Coconut Oil Coffee</p>
+        <p>Rs 50</p>
+        <p><button>Add to Cart</button></p>
+        <p><button>Buy Now</button></p>
+    </div>
+    <div class="card">
+        <img src="c6.jpg" width="200" height="200">
+        <p>Mocha Coffee</p>
+        <p>Rs 100</p>
+        <p><button>Add to Cart</button></p>
+        <p><button>Buy Now</button></p>
+    </div>
+    <div class="card">
+        <img src="c7.jpg" width="200" height="200">
+        <p>Kevi Costner's Cafe Mocha</p>
+        <p>Rs 150</p>
+        <p><button>Add to Cart</button></p>
+        <p><button>Buy Now</button></p>
+    </div>
+    <div class="card">
+        <img src="c8.jpg" width="200" height="200">
+        <p>Vardera Coffee Cup</p>
+        <p>Rs 100</p>
+        <p><button>Add to Cart</button></p>
+        <p><button>Buy Now</button></p>
+</div>
+
 </body>
 </html>
