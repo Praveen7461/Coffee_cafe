@@ -6,7 +6,7 @@
 }
 
 .main{
-    /* width: 100%; */
+    width: 100%;
     /* background:url(bg.jpg); */
     background-position: 100px 100px;
     background-size: cover;
@@ -120,7 +120,8 @@ ul li a:hover{
 }
 
 .cont img{
-    height: 400px;
+    height: 350px;
+    width: 100%;
 }
 
 .cont-des h2{
